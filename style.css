@@ -53,6 +53,8 @@ a{
 ul{
   list-style: none;
 }
+
+
   /* Header */
   .header .site-container{
     display: flex;
@@ -199,9 +201,69 @@ flex: 0 0 45.5%;
 }
 
 .services .left{
-  flex: 1;
+  flex:  0 0 30%;
 }
 
 .services .right{
-  flex: 0 0 30%  ;
+  flex:1  ;
 }
+
+.services .btn{
+  margin-left: 271px;
+  margin-top: 40px;
+}
+
+/* Services Item */
+
+/* .services-item .services-box-img{
+  width: 363px;
+  height: 180px;
+  border-radius: 30px;
+} */
+
+.services-item .services-box-img img{
+  border-radius: 30px;
+}
+.services-item .row{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 70px;
+}
+
+.services-item .services-content-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  line-height: 38px;
+  color:#15161b;
+  font-weight: 700;
+  font-weight: bold;
+
+}
+
+.services-item .our-services p{
+  margin-top: 52px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #9c9fa6;
+
+}
+
+.services-item .services-content-title h2{
+  margin-right: 63px;
+}
+
+.services-item .services-content-title svg{
+  width: 63px;
+  height: 47px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+
+
+
+
+ 
