@@ -262,8 +262,141 @@ flex: 0 0 45.5%;
   margin-left: -20px;
 }
 
+.services-item .default{
+  width: 63px;
+  height: 47px;
+}
 
+/* Our Work  */
 
+.our-work .svc{
+  display: flex;
+  grid-gap: 115px;
+}
 
+.our-work .left{
+  flex: 1;
+}
 
+.our-work  .right{
+  flex:0 0 20%  ;
+}
+
+/* .our-work .btn{
+  margin-left: 271px;
+  margin-top: 40px;
+} */
+
+.our-work .left h2{
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 77px;
+  color: #15161b;
+}
+
+.our-work .btn{
+  margin: 50px 10px 30px 50px ;
+  padding: 10px 30px;
+
+}
+
+.our-work .row{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 70px;
+  margin-top: 80px;
+}
+
+.our-work .row img{
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.our-work .row  p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #9c9fa6;
+  margin-top: 20px;
+}
+
+.our-work .row h2{
+  font-size: 26px;
+  line-height: 29px;
+  font-weight: 700;
+  font-weight: bold;
+  color: #15161b;
+}
+
+.our-work .work-content{
+  margin-left :20px ;
+}
  
+
+/* Why Choose US */
+
+.why-choose-us .section-title h2{
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 77px;
+  color: #15161b;
+  margin-top: 10px;
+}
+
+.why-choose-us .row{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  grid-gap: 30px;
+  margin-top: 60px;
+}
+
+.why-choose-us .why-choose-item-1{
+   margin: 40px;
+} 
+
+.why-choose-us .why-choose-content h2{
+  font-size: 26px;
+  line-height: 29px;
+  font-weight: 700;
+  font-weight: bold;
+  color: #15161b;
+}
+
+.why-choose-us .why-choose-content p{
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #9c9fa6;
+  margin-top: 20px;
+}
+
+.why-choose-us .why-choose-section-title{
+  display: flex;
+  grid-gap: 250px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.why-choose-us .why-choose-section-title h2{
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 77px;
+  color: #15161b;
+}
+
+.why-choose-us .explore{
+  display: flex;
+  grid-gap: 80px;
+  margin-top: 60px;
+}
+ 
+.why-choose-us .explore .left{
+  flex: 0 0 48%;
+}
+
+.why-choose-us .explore .right{
+  flex: 1;
+}
