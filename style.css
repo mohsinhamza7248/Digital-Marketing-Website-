@@ -389,7 +389,7 @@ flex: 0 0 45.5%;
 
 .why-choose-us .explore{
   display: flex;
-  grid-gap: 80px;
+  grid-gap: 119px;
   margin-top: 60px;
 }
  
@@ -400,3 +400,33 @@ flex: 0 0 45.5%;
 .why-choose-us .explore .right{
   flex: 1;
 }
+
+.why-choose-us .explore-partner .btn{
+  margin-right: 23px;
+  color: black;
+  background-color: #fff;
+}
+
+.why-choose-us .explore-partner .btn:hover{
+  color: white;
+  background-color:  #d63384 ; 
+}
+
+/* Executive partners */
+
+.executive-partners .section-title h2{
+  margin-right: -254px;
+  margin-top: 10px;
+}
+
+.executive-partners .row{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+   align-items: center;
+   grid-gap: 30px;
+   margin-top: 60px;
+ }
+
+ .executive-partners .partner-img{
+  margin: 30px 50px;
+ }
